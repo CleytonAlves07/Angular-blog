@@ -1,0 +1,39 @@
+.main-card {
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+.main-card:hover {
+  transform: scale(1.02);
+}
+
+.main-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.main-title {
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  color: #0047AB;
+  font-weight: bold;
+}
+
+.main-description {
+  margin: 0 15px 15px;
+  color: #555;
+  font-size: 1.6rem;
+  line-height: 1.8;
+  text-align: justify;
+  white-space: pre-wrap;
+}
