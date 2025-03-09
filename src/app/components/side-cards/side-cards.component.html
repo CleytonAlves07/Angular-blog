@@ -1,1 +1,7 @@
-<p>side-cards works!</p>
+<div class="side-cards">
+  @for (news of newsList; track news.title) {
+    <div (click)="onCardClick(news)">
+      <app-news-card [news]="news"></app-news-card>
+    </div>
+  }
+</div>
