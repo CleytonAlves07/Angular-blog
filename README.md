@@ -1,6 +1,7 @@
 # 📝 Blog Pessoal de Cleyton Alves
 
 Bem-vindo ao repositório do meu blog pessoal! Este é um projeto desenvolvido com Angular para compartilhar minhas experiências, conhecimentos e projetos na área de tecnologia e desenvolvimento. O blog é moderno, responsivo e fácil de navegar, com funcionalidades como notícias dinâmicas e rotas para páginas "Sobre" e "Contato".
+![angular-blog](https://github.com/user-attachments/assets/b7374ad7-b9df-4c8e-9e4d-60df6ff0e704)
 
 
 
