@@ -1,7 +1,13 @@
 <nav>
+  <div class="logo">
+    <img src="https://res.cloudinary.com/drc12z85g/image/upload/v1741542187/logo7_bcumfm.jpg" alt="Logo" class="logo-image">
+  </div>
+
   <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Sobre</a></li>
-    <li><a href="#">Contato</a></li>
+<li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+    <li><a routerLink="/sobre" routerLinkActive="active">Sobre</a></li>
+    <li><a routerLink="/contato" routerLinkActive="active">Contato</a></li>
+    <li><a href="https://github.com/CleytonAlves07" target="_blank">Github</a></li>
+    <li><a href="https://www.linkedin.com/in/cleyton-alves" target="_blank" >Linkedin</a></li>
   </ul>
 </nav>
