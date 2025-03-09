@@ -1,20 +1,15 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { MainCardComponent } from "./components/main-card/main-card.component";
+import { RouterModule } from '@angular/router';
 import { NavbarComponent } from "./components/navbar/navbar.component";
-import { SideCardsComponent } from "./components/side-cards/side-cards.component";
 
 @Component({
   selector: 'app-root',
-  imports: [
-    RouterOutlet,
-    MainCardComponent,
-    NavbarComponent,
-    SideCardsComponent
-],
-  templateUrl: './app.component.html',
+  standalone: true,
+  imports: [RouterModule, NavbarComponent],
+  template: `
+    <app-navbar></app-navbar>
+    <router-outlet></router-outlet>
+  `,
   styleUrl: './app.component.css'
 })
-export class AppComponent {
-  title = 'angular-blog';
-}
+export class AppComponent { }

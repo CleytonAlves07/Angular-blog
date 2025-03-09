@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="main-content">
+    <h1 class="title">Angular Blog !!</h1>
+    <app-main-card [news]="mainNews"></app-main-card>
+  </div>
+  <div class="side-content">
+    <app-side-cards [newsList]="sideNews" (cardClicked)="setMainNews($event)"></app-side-cards>
+  </div>
+</div>
